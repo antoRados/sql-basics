@@ -26,4 +26,3 @@ SELECT SUM(quantity * product_price) FROM orders;
 -- find total order person by single person_id
 SELECT SUM(quantity * product_price) FROM orders
 WHERE person_id = 'Jim';
-
